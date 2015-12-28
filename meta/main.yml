@@ -9,7 +9,7 @@ galaxy_info:
   - name: Debian
     versions:
       - wheezy
+      - jessie
   categories:
     - web
-dependencies:
-  - f500.php
+dependencies: []
