@@ -2,4 +2,4 @@
 
 - name: install php extensions
   apt: "pkg={{ item }} state=present"
-  with_items: php_extensions
+  with_items: "{{ php_extensions }}"
